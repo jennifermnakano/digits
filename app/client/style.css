@@ -9,6 +9,10 @@
   --matr-navbar-highlight-text: khaki;
 }
 
+.navbar a.nav-link.active {
+  color: var(--matr-navbar-highlight-text);
+}
+
 /* Change bootstrap variable values.
  See https://getbootstrap.com/docs/5.2/customize/css-variables/
  */
